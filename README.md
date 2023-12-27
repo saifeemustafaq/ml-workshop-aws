@@ -39,7 +39,7 @@ The following software is required:
 1. Create a folder, open your terminal at the newly created folder location. Clone the repo by typing the following command in the terminal -
    
    ```
-   git clone https://github.com/build-on-aws/building-a-machine-learning-enabled-web-app.git
+   git clone -b lab2 https://github.com/build-on-aws/building-a-machine-learning-enabled-web-app.git
    ```
 
 2. Navigate inside the `building-a-machine-learning-enabled-web-app` folder
@@ -58,24 +58,22 @@ The following software is required:
 
 4. Open the `building-a-machine-learning-enabled-web-app` in Visual Studio Code. Here is how the directory would look -
    
-   ![directory](https://github.com/build-on-aws/building-a-machine-learning-enabled-web-app/assets/15520369/6b553b06-103b-4497-aa7a-cd43918ca7bf)
-
+   ![directory](https://github.com/build-on-aws/building-a-machine-learning-enabled-web-app/assets/15520369/37f4d493-a992-46d0-b1bd-edf6598e8a56)
 
 
 ### Credentials
 
-**If in a hosted workshop**: 
+**If in hosted workshop**: 
 
 1. We need to provide the AWS Credentials. The keys can be found on the **Get AWS CLI credentials** sidebar link on the Workshop Studio page.
 
-   ![getcred](https://github.com/build-on-aws/building-a-machine-learning-enabled-web-app/assets/15520369/151a68d1-3ec3-49ec-9125-14fdb85d3698)
-
+   ![getcred](https://github.com/build-on-aws/building-a-machine-learning-enabled-web-app/assets/15520369/8cdac684-d695-46a4-90d5-b18965fde3b2)
 
    > Save these access keys safely with you. We will need it to configure the .env.local file
 
 2. Open the **.env.local** file located in the root folder of `building-a-machine-learning-enabled-web-app`. Add the access keys from the above step into this file - 
    
-   <img width="714" alt="env1" src="https://github.com/build-on-aws/building-a-machine-learning-enabled-web-app/assets/15520369/8325182d-b3bc-4d08-9034-3d79299a2cdd">
+   <img width="714" alt="env1" src="https://github.com/build-on-aws/building-a-machine-learning-enabled-web-app/assets/15520369/8612eda8-fcd5-4cdf-8014-cac19c166e64">
 
 
 3. Save the file and close it.
@@ -99,9 +97,8 @@ The following software is required:
 11. Copy the Access key and Secret access key.
 12. Open the **.env.local** file located in the root folder of `building-a-machine-learning-enabled-web-app`. Add the access keys from the above step into this file - 
    
-    
-    <img width="452" alt="envLocal" src="https://github.com/build-on-aws/building-a-machine-learning-enabled-web-app/assets/15520369/e53f0b39-dae9-4433-b1eb-480bc1218e49">
-    
+    <img width="452" alt="envLocal" src="https://github.com/build-on-aws/building-a-machine-learning-enabled-web-app/assets/15520369/0a8ed7bc-bcba-49cc-9a90-29f84752cba7">
+
 13. Save the file and close it.
 
 ### Running the app
@@ -115,7 +112,7 @@ The following software is required:
 
 3. Accept the terms and condition, Choose a photo.
 
-4. Select Analyze with Amazon Rekognition. You will see the results below the photo you have uploaded.
+4. Select 'Analyze with Amazon Rekognition' or 'Analyze with Amazon Textract'. You will see the results below the photo you have uploaded.
 ### Clean-up
 
 If you attended an instructor-led hosted workshop, you don't need to do the clean-up of services, as the sandbox accounts will be deleted after the end of the event.
